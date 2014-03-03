@@ -38,7 +38,7 @@ namespace AdvancedAlgs
             Point startPos = new Point(10, 10);
             Size startSize = new Size(450, 450);
             clearImage();
-            drawRect(startPos, startSize);
+            drawFractal(startPos, startSize);
         }
 
         private void clearImage()
@@ -53,8 +53,28 @@ namespace AdvancedAlgs
         {
             using (Graphics gx = Graphics.FromImage(image))
             {
-                gx.FillRectangle(new SolidBrush(Color.Plum), pos.X, pos.Y, size.Width, size.Height);
+                //gx.FillRectangle(new SolidBrush(Color.Plum), pos.X, pos.Y, size.Width, size.Height);
+                gx.DrawRectangle(new Pen(Color.Plum), pos.X, pos.Y, size.Width, size.Height);
             }
+        }
+
+        private void drawFractal(Point origPos, Size origSize)
+        {
+            if (origSize.Width > 1)
+            {
+                drawRect(origPos, origSize);
+
+                Size newSize = new Size(origSize.Width/2, origSize.Height/2);
+                Point upPos = new Point(origPos.X + newSize.Width/2, origPos.Y);
+                Point rightPos = new Point(origPos.X, origPos.Y + newSize.Height);
+                Point leftPos = new Point(origPos.X + newSize.Width, rightPos.Y);
+
+                //clearImage();
+                drawFractal(upPos, newSize);
+                drawFractal(rightPos, newSize);
+                drawFractal(leftPos, newSize);
+            }
+            return;
         }
 
         private void pbFrame_Paint(object sender, PaintEventArgs e)
