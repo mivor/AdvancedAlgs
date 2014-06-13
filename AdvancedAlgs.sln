@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Runner", "Algs.Runner\Algs.Runner.csproj", "{97AC6841-389D-4963-87E4-FE8E3B0C47C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Recursive", "Algs.Recursive\Algs.Recursive.csproj", "{C1D91A77-051A-4E5B-BE64-744AEFA524BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Common", "Algs.Common\Algs.Common.csproj", "{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97AC6841-389D-4963-87E4-FE8E3B0C47C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AC6841-389D-4963-87E4-FE8E3B0C47C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AC6841-389D-4963-87E4-FE8E3B0C47C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AC6841-389D-4963-87E4-FE8E3B0C47C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D91A77-051A-4E5B-BE64-744AEFA524BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D91A77-051A-4E5B-BE64-744AEFA524BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D91A77-051A-4E5B-BE64-744AEFA524BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D91A77-051A-4E5B-BE64-744AEFA524BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
