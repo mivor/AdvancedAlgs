@@ -8,7 +8,7 @@ namespace Algs.RecursiveTests
         private Factorial _sut;
 
         [Fact]
-        public void WhenZero_ReturnOne()
+        public void WhenZero_ResultOne()
         {
             // Arrange
             _sut = new Factorial(0);
@@ -21,7 +21,7 @@ namespace Algs.RecursiveTests
         }
         
         [Fact]
-        public void WhenPositiveNumber_ReturnFactorial()
+        public void WhenPositiveNumber_ResultFactorial()
         {
             // Arrange
             _sut = new Factorial(5);
