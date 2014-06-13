@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Recursive", "Algs.Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Common", "Algs.Common\Algs.Common.csproj", "{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.RecursiveTests", "Algs.RecursiveTests\Algs.RecursiveTests.csproj", "{ED739619-1B50-4534-81D8-7858C0AD5A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

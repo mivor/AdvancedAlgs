@@ -31,6 +31,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Algs.Common\Algs.Common.csproj">
+      <Project>{d4aed6e3-7c1a-4af3-a386-c20a83bafb4d}</Project>
+      <Name>Algs.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Algs.Recursive\Algs.Recursive.csproj">
+      <Project>{c1d91a77-051a-4e5b-be64-744aefa524ba}</Project>
+      <Name>Algs.Recursive</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

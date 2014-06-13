@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1D91A77-051A-4E5B-BE64-744AEFA524BA}</ProjectGuid>
+    <ProjectGuid>{ED739619-1B50-4534-81D8-7858C0AD5A79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algs.Recursive</RootNamespace>
-    <AssemblyName>Algs.Recursive</AssemblyName>
+    <RootNamespace>Algs.RecursiveTests</RootNamespace>
+    <AssemblyName>Algs.RecursiveTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -37,15 +37,25 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="xunit">
+      <HintPath>..\packages\xunit.1.9.2\lib\net20\xunit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factorial.cs" />
+    <Compile Include="FactorialTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algs.Common\Algs.Common.csproj">
       <Project>{d4aed6e3-7c1a-4af3-a386-c20a83bafb4d}</Project>
       <Name>Algs.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Algs.Recursive\Algs.Recursive.csproj">
+      <Project>{C1D91A77-051A-4E5B-BE64-744AEFA524BA}</Project>
+      <Name>Algs.Recursive</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
