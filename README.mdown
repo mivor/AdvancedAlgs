@@ -1,0 +1,47 @@
+# subiecte examen partial Tehnici de programare
+
+
+## Probleme conventionale
+
+Problema turnurilor din Hanoi
+
+Probleme de recursivitate matematica (factorial, Ackerman, Fibonacii )
+
+Problema platourilor
+
+Problema teritoriilor
+
+Cautarea binara
+
+Ridicarea la putere a unui numar
+
+Merge sort
+
+Rezolvarea unui sistem de ecuatii prin AG
+
+Problema spectacolelor
+
+
+## Probleme de teorie si sinteza
+
+Explicati tehnica de *programare greedy* si stabiliti clasele de probleme ce se rezolva conventional prin aceasta tehnica.
+
+Explicati tehnica de programare D.C. (*divide et imperra*) si stabiliti clasele de probleme ce se rezolva conven tional prin aceasta tehnica
+
+Explicati tehnicile de programare bazate pe *recursivitate* si stabiliti clasele de probleme ce se rezolva conventional prin aceasta tehnica
+
+Explicati tehnica de programare bazata pe *algoritmi genetici* si stabiliti clasele de probleme ce se rezolva conventional prin aceasta tehnica.
+
+
+
+## Tipuri de date definite de utilizator
+
+Tipul abstract de data lista simplu inlantuita (TAD-LSI)
+
+Tipul abstract de data lista simplu inlantuita circulara (TAD-LSIC)
+
+Tipul abstract de data stiva (TAD-ST)
+
+Tipul abstract de data coada (TAD-CD)
+
+Operatii elementare pe numere INTL (Liste simplu inlantuite cu noduri cifre)
