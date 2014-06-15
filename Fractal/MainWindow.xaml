@@ -1,24 +1,12 @@
 ﻿<Window x:Class="Fractal.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:ignore="http://www.ignore.com"
-        mc:Ignorable="d ignore"
+        xmlns:customControls="clr-namespace:Fractal.CustomControls"
         Height="350"
         Width="300"
-        Title="MVVM Light Application"
-        Loaded="MainWindow_OnLoaded"
-        SizeChanged="MainWindow_OnSizeChanged"
-        DataContext="{Binding Main, Source={StaticResource Locator}}">
-    
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Skins/MainSkin.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
+        Title="Recursive - Fractal">
 
-    <Canvas x:Name="Canvas" />
+    <customControls:Fractal MarginDivider="21"
+                            MinLength="7"
+                            RectangleBrush="Purple"/>
 </Window>
