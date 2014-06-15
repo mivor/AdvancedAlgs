@@ -5,7 +5,7 @@
 
 Problema turnurilor din Hanoi
 
-Probleme de recursivitate matematica (factorial, Ackerman, Fibonacii )
+* Probleme de recursivitate matematica (factorial, Ackerman, Fibonacii )
 
 Problema platourilor
 

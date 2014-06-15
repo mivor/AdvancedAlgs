@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Common", "Algs.Common\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.RecursiveTests", "Algs.RecursiveTests\Algs.RecursiveTests.csproj", "{ED739619-1B50-4534-81D8-7858C0AD5A79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractal", "Fractal\Fractal.csproj", "{0039E75D-3ECF-4CC5-9937-0B5586D3EFDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED739619-1B50-4534-81D8-7858C0AD5A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0039E75D-3ECF-4CC5-9937-0B5586D3EFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0039E75D-3ECF-4CC5-9937-0B5586D3EFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0039E75D-3ECF-4CC5-9937-0B5586D3EFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0039E75D-3ECF-4CC5-9937-0B5586D3EFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
