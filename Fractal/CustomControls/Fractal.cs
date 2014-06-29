@@ -67,17 +67,17 @@ namespace Fractal.CustomControls
             var margin = GetMargin(length);
             var rectLength = length - margin * 2;
 
-            for (var i = 0; i < _transform.Length; i++)
+            for (var col = 0; col < _transform.Length; col++)
             {
-                for (var j = 0; j < _transform.Length; j++)
+                for (var row = 0; row < _transform.Length; row++)
                 {
                     // don't draw in rectangle center
-                    if (i == 1 && j == 1) continue;
+                    if (col == 1 && row == 1) continue;
 
                     var offset = new Point
                     {
-                        X = origin.X + margin + length * _transform[i],
-                        Y = origin.Y + margin + length * _transform[j]
+                        X = origin.X + margin + length * _transform[col],
+                        Y = origin.Y + margin + length * _transform[row]
                     };
                     Draw(offset, rectLength);
                 }

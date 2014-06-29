@@ -7,8 +7,8 @@
     <ProjectGuid>{C1D91A77-051A-4E5B-BE64-744AEFA524BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algs.Recursive</RootNamespace>
-    <AssemblyName>Algs.Recursive</AssemblyName>
+    <RootNamespace>Algs.Simple</RootNamespace>
+    <AssemblyName>Algs.Simple</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,6 +43,7 @@
     <Compile Include="Factorial.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursive.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algs.Common\Algs.Common.csproj">

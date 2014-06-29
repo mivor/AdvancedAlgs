@@ -5,11 +5,11 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Runner", "Algs.Runner\Algs.Runner.csproj", "{97AC6841-389D-4963-87E4-FE8E3B0C47C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Recursive", "Algs.Recursive\Algs.Recursive.csproj", "{C1D91A77-051A-4E5B-BE64-744AEFA524BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Simple", "Algs.Recursive\Algs.Simple.csproj", "{C1D91A77-051A-4E5B-BE64-744AEFA524BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.Common", "Algs.Common\Algs.Common.csproj", "{D4AED6E3-7C1A-4AF3-A386-C20A83BAFB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.RecursiveTests", "Algs.RecursiveTests\Algs.RecursiveTests.csproj", "{ED739619-1B50-4534-81D8-7858C0AD5A79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs.SimpleTests", "Algs.RecursiveTests\Algs.SimpleTests.csproj", "{ED739619-1B50-4534-81D8-7858C0AD5A79}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractal", "Fractal\Fractal.csproj", "{E7C8F254-A50C-4F2E-931F-DADF4AA36913}"
 EndProject
