@@ -46,11 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CmmdcTests.cs" />
-    <Compile Include="FactorialTest.cs" />
-    <Compile Include="FibonacciTests.cs" />
+    <Compile Include="DivideTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecursiveTests.cs" />
+    <Compile Include="SortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
