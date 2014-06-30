@@ -1,5 +1,4 @@
-﻿using System.CodeDom;
-using System.Reflection;
+﻿using System;
 
 namespace Algs.Simple
 {
@@ -21,6 +20,42 @@ namespace Algs.Simple
             }
 
             return array[min] == value;
+        }
+
+        public static long Exp(long n, long exp)
+        {
+
+            var sqroot = (long)(Math.Sqrt(exp)); 
+
+            var prod = n; 
+
+            for (int power = 2; power <= sqroot; power++)
+            {
+                prod *= n; 
+            }
+
+            var allTerms = sqroot;
+            var prod2 = prod;
+            if (exp != sqroot*sqroot)
+            {
+                prod2 *= n;
+                if (exp >= sqroot * (sqroot + 1))
+                    allTerms++;
+            }
+
+            var result = prod;
+
+            long remainingTerms = allTerms - 1;
+            for (; remainingTerms > exp % allTerms; remainingTerms--)
+            {
+                result *= prod;
+            }
+            for (; remainingTerms > 0; remainingTerms--)
+            {
+                result *= prod2;
+            }
+
+            return result;
         }
     }
 }

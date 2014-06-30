@@ -30,5 +30,29 @@ namespace Algs.RecursiveTests
             // Assert
             Assert.False(result);
         }
+
+        [Fact]
+        public void Exp_WhenNumbers_ReturnCorect()
+        {
+            // Arrange
+
+            // Act
+            var result = Divide.Exp(7, 13);
+
+            // Assert
+            Assert.Equal(96889010407, result);
+        }
+
+        [Fact]
+        public void Exp_WhenExpPerfectSquare_ReturnCorect()
+        {
+            // Arrange
+
+            // Act
+            var result = Divide.Exp(7, 16);
+
+            // Assert
+            Assert.Equal(33232930569601, result);
+        }
     }
 }

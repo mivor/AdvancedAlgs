@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Algs.Simple
+﻿namespace Algs.Simple
 {
     public static class Sort
     {
